@@ -1,0 +1,370 @@
+{
+    "accessors": [
+        {
+            "componentType": 5123,
+            "count": 18360,
+            "max": [
+                6509
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "componentType": 5126,
+            "count": 6510,
+            "max": [
+                1.0004884004884005,
+                1.0004884004884005,
+                1.0004884004884005
+            ],
+            "min": [
+                -1.0004884004884005,
+                -1.0004884004884005,
+                -1.0004884004884005
+            ],
+            "type": "VEC3"
+        },
+        {
+            "componentType": 5126,
+            "count": 6510,
+            "max": [
+                2.6350232271316516,
+                9.511208021996017,
+                2.857015648642923
+            ],
+            "min": [
+                -3.328945362923142,
+                -0.006059611198898636,
+                -1.7088575009083713
+            ],
+            "type": "VEC3"
+        },
+        {
+            "componentType": 5126,
+            "count": 6510,
+            "max": [
+                1.0000352364676761,
+                1.000256572098868
+            ],
+            "min": [
+                -3.528029804472112e-05,
+                0.0021374124390317103
+            ],
+            "type": "VEC2"
+        },
+        {
+            "componentType": 5123,
+            "count": 41838,
+            "max": [
+                14667
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "componentType": 5126,
+            "count": 14687,
+            "max": [
+                1.0004884004884005,
+                1.0004884004884005,
+                1.0004884004884005
+            ],
+            "min": [
+                -1.0004884004884005,
+                -1.0004884004884005,
+                -1.0004884004884005
+            ],
+            "type": "VEC3"
+        },
+        {
+            "componentType": 5126,
+            "count": 14687,
+            "max": [
+                1.8935093949583024,
+                12.646261109919099,
+                1.2023527871473396
+            ],
+            "min": [
+                -1.8935093949583024,
+                9.393380158111766,
+                -1.202191598251149
+            ],
+            "type": "VEC3"
+        },
+        {
+            "componentType": 5126,
+            "count": 14687,
+            "max": [
+                0.9997644008055123,
+                1.0001909463926522
+            ],
+            "min": [
+                0.00023569709977329888,
+                0.007488292370757174
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "asset": {
+        "generator": "Khronos Blender glTF 2.0 I/O",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 25244
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 25244,
+            "byteLength": 53884
+        }
+    ],
+    "buffers": [
+        {
+            "name": "AntiqueCamera",
+            "byteLength": 79128,
+            "uri": "AntiqueCamera.bin"
+        }
+    ],
+    "extensions": {},
+    "images": [
+        {
+            "name": "camera_camera_Normal",
+            "uri": "camera_camera_Normal.basis"
+        },
+        {
+            "name": "camera_camera_BaseColor",
+            "uri": "camera_camera_BaseColor.jpg"
+        },
+        {
+            "name": "camera_tripod_BaseColor",
+            "uri": "camera_tripod_BaseColor.jpg"
+        },
+        {
+            "name": "camera_tripod_Normal",
+            "uri": "camera_tripod_Normal.basis"
+        },
+        {
+            "name": "camera_camera_Roughness",
+            "uri": "camera_camera_Roughness.png"
+        },
+        {
+            "name": "camera_tripod_Roughness",
+            "uri": "camera_tripod_Roughness.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "camera",
+            "normalTexture": {
+                "index": 0,
+                "texCoord": 0
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1,
+                    "texCoord": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 4,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 1,
+                "roughnessFactor": 1
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "alphaMode": "OPAQUE",
+            "doubleSided": false
+        },
+        {
+            "name": "tripod",
+            "normalTexture": {
+                "index": 3,
+                "texCoord": 0
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2,
+                    "texCoord": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 5,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 1,
+                "roughnessFactor": 1
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "alphaMode": "OPAQUE",
+            "doubleSided": false
+        }
+    ],
+    "meshes": [
+        {
+            "name": "tripod_uv",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 1,
+                    "mode": 4,
+                    "extensions": {
+                        "KHR_draco_mesh_compression": {
+                            "bufferView": 0,
+                            "attributes": {
+                                "NORMAL": 0,
+                                "POSITION": 1,
+                                "TEXCOORD_0": 2
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "camera_uv",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 5,
+                        "POSITION": 6,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4,
+                    "material": 0,
+                    "mode": 4,
+                    "extensions": {
+                        "KHR_draco_mesh_compression": {
+                            "bufferView": 1,
+                            "attributes": {
+                                "NORMAL": 0,
+                                "POSITION": 1,
+                                "TEXCOORD_0": 2
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 1,
+            "name": "camera",
+            "rotation": [
+                0,
+                -0.7071068286895752,
+                0,
+                0.7071067690849304
+            ],
+            "scale": [
+                0.5700311064720154,
+                0.5700311064720154,
+                0.5700311064720154
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh": 0,
+            "name": "tripod",
+            "rotation": [
+                0,
+                -0.7071068286895752,
+                0,
+                0.7071067690849304
+            ],
+            "scale": [
+                0.5700311064720154,
+                0.5700311064720154,
+                0.5700311064720154
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "samplers": [
+        {
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "Scene",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        },
+        {
+            "sampler": 0,
+            "source": 3
+        },
+        {
+            "sampler": 0,
+            "source": 4
+        },
+        {
+            "sampler": 0,
+            "source": 5
+        }
+    ],
+    "extensionsRequired": [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsUsed": [
+        "KHR_draco_mesh_compression"
+    ]
+}

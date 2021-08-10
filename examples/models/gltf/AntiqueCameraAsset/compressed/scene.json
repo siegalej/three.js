@@ -1,0 +1,33 @@
+{
+    "models": [
+        {
+            "vertical_rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "variant": "3D/Compressed",
+            "horizontal_rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "abstract_scale": 1,
+            "metric_unit": "m",
+            "model_path": "AntiqueCamera.gltf",
+            "vertical_translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "horizontal_translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "version": "2"
+}
